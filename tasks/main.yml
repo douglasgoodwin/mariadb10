@@ -35,5 +35,5 @@
    - ::1
    - localhost
 
-- name: Create .my.cnf for ansible user
-  template: src=.my.cnf.j2 desc=~/.my.cnf
+# - name: Create .my.cnf for ansible user
+#   template: src=.my.cnf.j2 desc=~/.my.cnf
